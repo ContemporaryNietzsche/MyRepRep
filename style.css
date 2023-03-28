@@ -30,7 +30,7 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #fff;  /* this is the "color" of the logo but when logo is an image the color doesnt really do anything */
     text-transform: uppercase;
 }
 .navbar ul li::after{
@@ -46,6 +46,23 @@
 }
 .navbar ul li:hover::after{
     width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
 }
 
 
